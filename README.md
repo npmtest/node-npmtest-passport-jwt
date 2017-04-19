@@ -1,7 +1,10 @@
-# test coverage for  [passport-jwt (v2.2.1)](https://github.com/themikenicholson/passport-jwt)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-jwt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-jwt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-jwt.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-jwt)
+# npmtest-passport-jwt
+
+#### test coverage for  [passport-jwt (v2.2.1)](https://github.com/themikenicholson/passport-jwt)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-jwt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-jwt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-jwt.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-jwt)
+
 #### Passport authentication strategy using JSON Web Tokens
 
-[![NPM](https://nodei.co/npm/passport-jwt.png?downloads=true)](https://www.npmjs.com/package/passport-jwt)
+[![NPM](https://nodei.co/npm/passport-jwt.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/passport-jwt)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-passport-jwt/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-passport-jwt/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-passport-jwt/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-passport-jwt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-passport-jwt/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-passport-jwt/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-passport-jwt/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-passport-jwt/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-passport-jwt/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-passport-jwt/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-passport-jwt%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-passport-jwt/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-passport-jwt/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-passport-jwt/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-passport-jwt/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-passport-jwt%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-passport-jwt/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-passport-jwt/build/test-report.html](https://npmtest.github.io/node-npmtest-passport-jwt/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-passport-jwt/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-passport-jwt/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-passport-jwt/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-passport-jwt/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-passport-jwt/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-passport-jwt/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-passport-jwt/build/screenCapture.npmPackageListing.svg)
 
@@ -63,13 +72,11 @@
     "main": "./lib",
     "maintainers": [
         {
-            "name": "themikenicholson",
-            "email": "themikenicholson@gmail.com"
+            "name": "themikenicholson"
         }
     ],
     "name": "passport-jwt",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/themikenicholson/passport-jwt.git"
