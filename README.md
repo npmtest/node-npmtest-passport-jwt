@@ -1,6 +1,6 @@
 # npmtest-passport-jwt
 
-#### test coverage for  [passport-jwt (v2.2.1)](https://github.com/themikenicholson/passport-jwt)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-jwt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-jwt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-jwt.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-jwt)
+#### basic test coverage for  [passport-jwt (v2.2.1)](https://github.com/themikenicholson/passport-jwt)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-jwt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-jwt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-jwt.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-jwt)
 
 #### Passport authentication strategy using JSON Web Tokens
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-passport-jwt/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-passport-jwt/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-passport-jwt/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-passport-jwt/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-passport-jwt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-passport-jwt/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-passport-jwt/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-passport-jwt/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-passport-jwt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-passport-jwt/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-passport-jwt/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-passport-jwt/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
         "test": "mocha --reporter spec --require test/bootstrap test/*test.js",
         "testcov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter spec --require test/bootstrap test/*test.js"
     },
-    "version": "2.2.1"
+    "version": "2.2.1",
+    "bin": {}
 }
 ```
 
